@@ -22,8 +22,9 @@ cd shop_vue    // 进入模板目录
 
 npm install         // 安装项目依赖，等待安装完成之后，安装失败可用 cnpm 或 yarn
 
-//通过vue.config.js 修改端口
+utils/request.js 修改后端请求的地址
 
+//通过vue.config.js 修改项目启动端口
 // 开启服务器，浏览器访问 http://localhost:3000
 npm run dev
 
