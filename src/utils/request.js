@@ -4,7 +4,7 @@ import router from '../router';
 const service = axios.create({
     // process.env.NODE_ENV === 'development' 来判断是否开发环境
     // easy-mock服务挂了，暂时不使用了
-    baseURL: 'http://localhost:8080/admin',
+    baseURL: 'http://43.142.157.162:70/admin',
     timeout: 5000
 });
 
